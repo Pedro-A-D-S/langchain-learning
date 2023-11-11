@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "langchain-learning"
+version = "0.1.0"
+description = ""
+authors = ["Pedro-A-D-S <pedroalves0409@gmail.com>"]
+readme = "README.md"
+packages = [
+    {include = "src"}
+]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+langchain = "^0.0.331"
+huggingface-hub = "^0.18.0"
+ipykernel = "^6.26.0"
+openai = "0.28.1"
+python-dotenv = "^1.0.0"
+numexpr = "^2.8.7"
+matplotlib = "^3.8.1"
+seaborn = "^0.13.0"
+tiktoken = "^0.5.1"
+tqdm = "^4.66.1"
+beautifulsoup4 = "^4.12.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
